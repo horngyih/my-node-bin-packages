@@ -1,0 +1,18 @@
+{
+  "name": "node-bin-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "notify": "bin/notify.js"
+  },
+  "bin" : {
+      "notify" : "bin/notify.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-notifier": "^5.1.2"
+  }
+}
